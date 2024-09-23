@@ -1,15 +1,13 @@
-﻿using HelixToolkit.Wpf.SharpDX;
-using HelixToolkit.Wpf.SharpDX.Model.Scene;
+﻿using HelixToolkit.SharpDX.Core;
+using HelixToolkit.SharpDX.Core.Model.Scene;
+using HelixToolkit.Wpf.SharpDX;
+
 using SfärProjekt.Models;
-using SharpDX;
-using System;
-using System.Collections.Generic;
+
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Media.Media3D;
+
 using Camera = HelixToolkit.Wpf.SharpDX.Camera;
 
 namespace SfärProjekt.VieModels
@@ -29,8 +27,8 @@ namespace SfärProjekt.VieModels
         public MeshGeometryModel3D meshGeometryModel3D;
         public MeshNode SphereMEshModel3D;
         public MeshNode BoxMeshNode;
-        public HelixToolkit.Wpf.SharpDX.MeshGeometry3D CubeMesh { get; set; }
-        public HelixToolkit.Wpf.SharpDX.MeshGeometry3D SphereMesh { get; set; }
+        public MeshGeometry3D CubeMesh { get; set; }
+        public MeshGeometry3D SphereMesh { get; set; }
 
         /// <summary>
         /// Groups

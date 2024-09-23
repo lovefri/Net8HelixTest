@@ -1,11 +1,8 @@
 ﻿using HelixToolkit.Wpf.SharpDX;
-using HelixToolkit.Wpf.SharpDX.Model.Scene;
+using HelixToolkit.SharpDX.Core.Model.Scene;
 using SharpDX;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using HelixToolkit.SharpDX.Core;
 
 namespace SfärProjekt.Models
 {
